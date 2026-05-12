@@ -9,9 +9,8 @@ This granular customer intelligence will enable more effective acquisition, rete
 
 Moving forward, continued monitoring and refinement of these customer clusters will be crucial to sustaining a competitive edge.
 
-The goal of this project is to segment the customer data into distinct, well-defined groups, with clear identifying features for each segment. By the end of the project, we will have a comprehensive understanding of the different customer personas, enabling more targeted and effective marketing, product development, and customer service strategies.
-
 ##The Data
+
 The following is some boilerplate code that loads the required libraries, reads the data and displays some initial information about it:
 """
 
@@ -32,31 +31,18 @@ data.head()
 The features are as follows:
 
 1.customer_id: unique identifier for each customer.
-
 2.age: customer age in years.
-
 3.gender: customer gender (M or F).
-
 4.dependent_count: number of dependents of each customer.
-
 5.education_level: level of education (High School, Graduate, etc.).
-
 6.marital_status: marital status (Single, Married, etc.).
-
 7.estimated_income: the estimated income for the customer projected by the data science team.
-
 8.months_on_book: time as a customer in months.
-
 9.total_relationship_count: number of times the customer contacted the company.
-
 10.months_inactive_12_mon: number of months the customer did not use the credit card in the last 12 months.
-
 11.credit_limit: customer's credit limit.
-
 12.total_trans_amount: the overall amount of money spent on the card by the customer.
-
 13.total_trans_count: the overall number of times the customer used the card.
-
 14.avg_utilization_ratio: daily average utilization ratio.
 
 Of the features, 3 are categorical (gender, education_level and marital_status) and the other 10 are numeric."""
@@ -264,7 +250,7 @@ plt.show()
 
 """Based on the data visualizations, several patterns emerge across the customer clusters:
 
-    Gender distribution: Clusters 4 and 7 are predominantly composed of male customers, whereas Cluster 5 contains a higher proportion of female customers.
+    Gender distribution: Clusters 4 and 7 are predominantly composed of male customers, where as Cluster 5 contains a higher proportion of female customers.
 
     Marital status: The distribution of marital status varies considerably between clusters. Clusters 4 and 5 consist mainly of married customers, while Clusters 1 and 6 are primarily composed of single customers. Cluster 2, however, contains a substantial number of customers for whom marital status information is missing.
 
